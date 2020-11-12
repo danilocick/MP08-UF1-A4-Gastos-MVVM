@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcula si un número es modular"/>
+    <EditText
+        android:id="@+id/dividendo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dividendo"/>
+    <EditText
+        android:id="@+id/divisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Divisor"/>
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"/>
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:gravity="center"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
